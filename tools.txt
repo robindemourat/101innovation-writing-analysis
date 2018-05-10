@@ -1,0 +1,394 @@
+MS Word
+LaTeX
+Google Drive/Docs
+inconnu
+OpenOffice
+ShareLaTeX
+Overleaf (=WriteLaTeX)
+Mendeley
+Evernote
+GitHub
+Bitbucket
+MS Excel
+MS Powerpoint
+Adobe Photoshop
+Scrivener
+Scalar
+QuarkXPress
+Adobe InDesign
+Authorea
+Pages
+LibreOffice Writer
+Box
+Zotero
+WordPerfect
+TextWrangler
+Dropbox
+ownCloud
+Markdown
+LibreOffice
+EndNote
+Papers (papersapp.com)
+by hand
+SimpleMind
+institutional server
+Adobe Reader
+email
+Reference Manager
+Papyrus
+LyX
+TextEdit
+xfig
+RevMan (Review Manager)
+institutional shared drive
+Manuscripts (manuscripts.app)
+Notepad++
+RefWorks
+Gramarly
+texmacs
+Sublime Text Editor
+MS OneDrive
+PhotoImpact
+Adobe Illustrator
+CINDEX
+CorelDraw
+research monographs
+Emacs
+OrgMode (Emacs)
+MS Publisher
+R
+Adobe Acrobat
+MS Access
+pdf
+MathType
+Origin
+graphics software
+Scientific Word
+OpenOffice Writer
+RMarkdown
+RStudio
+Etherpad
+Atom
+GIMP
+GraphPad
+GraphPad PRISM
+Pandoc
+ChemBioDraw
+Atlas TI
+Citavi
+Keynote
+Workflowy
+wiki
+TeX
+Ginger Translate
+Alternote
+MS OneNote
+table editors
+graph editors
+InkScape
+Git
+Manuscript
+text editor
+Leo
+Write
+Adobe Acrobat Pro
+Google Earth
+iPhoto
+CVS (Concurrent Versions System)
+knitr
+Numbers
+HTML editor
+Wordpress
+Omeka
+SVN (Subversion)
+GitLab
+neooffice
+OnlyOffice
+Nisus Writer
+institutional cloud server
+WPS
+computer
+scan
+MDL ISIS Draw
+gVim
+BBEdit
+Adobe
+Mindmanager
+Power point image conversion format
+SourceTree
+ImageJ
+Typewriter online
+Vim
+Docear
+Byword
+iWork
+Nota Bene
+Ulysses
+EasyBib
+Google Scholar
+institutional collaboration environment
+Scribus
+MS Paint
+iA Writer
+MacDown
+Scientific Workplace
+blog
+FrameMaker
+Aquamacs
+Grapher
+Writer
+Blender
+Notepad
+DocOnce
+Q10
+OpenDoc
+Paper
+MS Picture
+Mathematica
+Leafpad
+Asciidoc
+OfficeSuite Pro
+ArcView
+Snipping Tool
+MS Sharepoint
+Google Keep
+oXygen XML editor
+TeXStudio
+memo pad
+mi
+Sakura Editor
+Scratchpad
+BibTeX
+JabRef
+SPSS
+Open Document Writer
+Texmaker
+Kile
+FreeMind
+Mellel
+cms
+Typora
+MS SkyDrive
+OpenCloud
+Notes
+Medium
+Letterspace
+ChemDraw
+Telekom Mediencenter
+Quip
+Finale (notation software)
+word processing
+Tinderbox
+StackEdit
+text
+CyberLeninka
+Dragon
+MathCAD
+ReST
+San FranciscoEdit
+DevonThink
+Visio
+SigmaPlot
+Redmine Wiki
+Deckset
+Matlab
+Ilias
+Penflip
+manuals/guidelines
+monographs and articles
+MS Visio
+yWriter
+Mindjet
+version management
+mobile note app
+MindMaple
+mapping software
+notebook
+CRITICAL
+MINEQL+
+Scientist
+MS Outlook
+Zimwiki
+Jupyter Notebook
+Marked2
+Basecamp
+HWP (Hangul / HanWord)
+Lotus Word Pro
+TexnicCenter
+MEPS eidtor
+Vi
+MS Office Online
+dbook
+APA (American Psychological Association)
+PyMOL
+pLabel
+SciDavis
+iCloud
+Typewriter
+XMind
+iPad apps
+Moo
+Eclipse
+TexLipse
+eduPad
+DocBook
+Writer's Diet
+Wordpad
+Hidemaru
+Cloudstor / Cloudstor+
+OoWriter
+Corel
+TeXshop
+publishers' online workflow apps
+Everwrite
+iBooks
+WinEdit
+Notational Velocity
+Finding (app)
+Dropbox Paper
+text files
+abiword
+Scapple
+Ashampoo Office
+SDL
+AutoCAD
+1C
+MS Office
+literature management programs
+Collective Knowledge
+FocusWriter
+Confluence wiki
+app
+Mou
+Kate
+nedit
+Cite this for me
+Note
+Scriptdoc
+Editorial (app)
+Linked Research
+Adobe Creative Suite
+Sibelius
+cloud
+SurfDrive
+Sente
+OCT
+iNotebook
+MS Note
+NVIVO
+F1000 Workbench
+Pinta
+nvALT
+Xodo Docs
+BRAHMS
+ChemSketch
+RagTime
+carnet
+publisher
+publishers' production platforms
+Adobe Dreamweaver
+ArcGIS
+Shapes
+AUCTeX
+EndNoteWeb
+ChemWorx
+Ginko (app)
+open source office products
+MS Win Notepad
+OWL (Purdue)
+MedeA
+Mercury
+PowerCell
+Topas
+Works
+IrfanView
+Python
+PiratePad
+MediaWiki
+GIS
+MultiMarkdown Composer
+cloud storage
+Photos
+personal solution
+Scribd
+MathCast
+Calc
+Bibdesk
+restructured text for technical documentation
+Writer Pro
+Lynx
+Zettelkasten
+Mindmap
+Sweave
+Preview
+APA (American Psychological Association) manual
+Google
+DuckDuckGo
+php
+Perl
+Javascript
+Peerla
+PDF creator
+copy
+Circus Ponies Notebook
+literature management program
+Dokuwiki
+Igor
+ProCite
+word to pdf converters (and vice versa)
+online platforms to store and share large files
+MS Word Online
+ACM (Association for Computing Machinery) author profile page
+IDL
+peers / colleagues
+Perforce
+Statistica
+RefWorks Flow
+institutional solution
+ChemOffice
+PagePlus
+Mind Genius
+institutional list of publications
+Indian lists of recent publications
+Linux
+750words.com
+Seafile
+Textilus
+PDF Pro
+ABBYY FineReader
+Madoko
+Scholarly Markdown
+WriteMonkey
+journal submission system
+Softmaker Office
+Overleaf
+MathMagic
+MS Office 365
+local tools
+Lilypond
+iBooks Author
+Yandex Docuements
+MediaWikiMarkdown
+Open Words
+Beamer
+Beaker
+Omni Outliner
+Google Translate
+Android applications
+journal articles and textbooks
+TIMEVIEWER
+Rake
+Adobe Creative Cloud
+Wikiversity
+TextMate
+Antidote
+Windows
+Web of Science
+publisher website
+DOI (Digital Object Identifier)
+online translator
+Elsevier Webshop Language Editing
+Elsevier Webshop Illustration Service
+Prezi
+RTF editor
+Text Encoding Initiative
