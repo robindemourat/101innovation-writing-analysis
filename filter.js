@@ -175,19 +175,19 @@ fs.readFile(input, 'utf8', (err, str) => {
 
 
 
-  fs.writeFile('output_by_respondant.csv', dsv.csvFormat(toolsByRespondant), 'utf8', (err) => {
+  fs.writeFile('outputs/output_by_respondant.csv', dsv.csvFormat(toolsByRespondant), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
     else console.log('done for raw output');
   });
 
-  fs.writeFile('tools.txt', Object.keys(toolsList).join('\n'), 'utf8', (err) => {
+  fs.writeFile('outputs/tools.txt', Object.keys(toolsList).join('\n'), 'utf8', (err) => {
     if (err) {
       console.log(err);
     } else console.log('done for tools list');
   })
-  fs.writeFile('output_weightened.csv', dsv.csvFormat(toolsWeightened), 'utf8', (err) => {
+  fs.writeFile('outputs/output_weightened.csv', dsv.csvFormat(toolsWeightened), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
@@ -298,38 +298,38 @@ fs.readFile(input, 'utf8', (err, str) => {
   }, []);
 
   
-  fs.writeFile('output_respondants_discipline_categories.csv', dsv.csvFormat(respondantsDisciplineCategories), 'utf8', (err) => {
+  fs.writeFile('outputs/output_respondants_discipline_categories.csv', dsv.csvFormat(respondantsDisciplineCategories), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
     else console.log('done for output_respondants_discipline_categories');
   });
 
-  fs.writeFile('output_tools_popularity_all.csv', dsv.csvFormat(toolsPopularity), 'utf8', (err) => {
+  fs.writeFile('outputs/output_tools_popularity_all.csv', dsv.csvFormat(toolsPopularity), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
     else console.log('done for output_tools_popularity_all');
   });
-  fs.writeFile('output_tools_popularity_20best.csv', dsv.csvFormat(toolsPopularity20best), 'utf8', (err) => {
+  fs.writeFile('outputs/output_tools_popularity_20best.csv', dsv.csvFormat(toolsPopularity20best), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
     else console.log('done for output_tools_popularity_10best');
   });
-  fs.writeFile('output_tools_popularity_by_discipline.csv', dsv.csvFormat(toolsPopularityByDiscipline), 'utf8', (err) => {
+  fs.writeFile('outputs/output_tools_popularity_by_discipline.csv', dsv.csvFormat(toolsPopularityByDiscipline), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
     else console.log('done for output_tools_popularity_by_discipline');
   });
-  fs.writeFile('output_tools_categories_popularity_by_discipline_categories.csv', dsv.csvFormat(toolsCategoriesPopularityByDisciplineCategory), 'utf8', (err) => {
+  fs.writeFile('outputs/output_tools_categories_popularity_by_discipline_categories.csv', dsv.csvFormat(toolsCategoriesPopularityByDisciplineCategory), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
     else console.log('done for output_tools_categories_popularity_by_discipline_categories');
   });
-  fs.writeFile('output_tools_categories_popularity_by_discipline.csv', dsv.csvFormat(toolsPopularityByDiscipline), 'utf8', (err) => {
+  fs.writeFile('outputs/output_tools_categories_popularity_by_discipline.csv', dsv.csvFormat(toolsPopularityByDiscipline), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
@@ -361,7 +361,7 @@ fs.readFile(input, 'utf8', (err, str) => {
   }, []);
   // console.log(toolsWeightenedNormalizedByDisciplineCategory);
 
-  fs.writeFile('output_weightened_normalized_by_discipline_cat.csv', dsv.csvFormat(toolsWeightenedNormalizedByDisciplineCategory), 'utf8', (err) => {
+  fs.writeFile('outputs/output_weightened_normalized_by_discipline_cat.csv', dsv.csvFormat(toolsWeightenedNormalizedByDisciplineCategory), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
@@ -369,7 +369,7 @@ fs.readFile(input, 'utf8', (err, str) => {
   });
 
 
-fs.writeFile('output_weightened_normalized_by_discipline_cat_no_wysiwyg.csv', dsv.csvFormat(
+fs.writeFile('outputs/output_weightened_normalized_by_discipline_cat_no_wysiwyg.csv', dsv.csvFormat(
   toolsWeightenedNormalizedByDisciplineCategory
   .filter(t => t.tool_cat !== 'wysiwyg bureautique')
 ), 'utf8', (err) => {
@@ -379,7 +379,7 @@ fs.writeFile('output_weightened_normalized_by_discipline_cat_no_wysiwyg.csv', ds
     else console.log('done for weightened output');
   });
 
-  fs.writeFile('output_weightened_no_wysiwyg.csv', dsv.csvFormat(
+  fs.writeFile('outputs/output_weightened_no_wysiwyg.csv', dsv.csvFormat(
     toolsWeightened
     .filter(t => t['famille d\'outil'] !== 'wysiwyg bureautique')
     .filter(t => t['famille d\'outil'] !== 'autre')
@@ -407,7 +407,7 @@ fs.writeFile('output_weightened_normalized_by_discipline_cat_no_wysiwyg.csv', ds
         return -1
       } else return 1;
     })
-  fs.writeFile('tools_use.csv', dsv.csvFormat(toolsWeights), 'utf8', (err) => {
+  fs.writeFile('outputs/tools_use.csv', dsv.csvFormat(toolsWeights), 'utf8', (err) => {
     if (err) {
       console.log(err)
     } else console.log('done for tools use')
@@ -422,7 +422,7 @@ fs.writeFile('output_weightened_normalized_by_discipline_cat_no_wysiwyg.csv', ds
     const fr = disciplineTranslations[en];
     const filtered = toolsWeightened.filter(t => t.discipline === fr);
     console.log('writing for', fr);
-    fs.writeFile(`output_weightened_${fr}.csv`, dsv.csvFormat(filtered), 'utf8', (err) => {
+    fs.writeFile(`outputs/output_weightened_${fr}.csv`, dsv.csvFormat(filtered), 'utf8', (err) => {
       if (err) {
         console.log(err);
       }
