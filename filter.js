@@ -407,12 +407,7 @@ fs.writeFile('outputs/output_weightened_normalized_by_discipline_cat_no_wysiwyg.
         return -1
       } else return 1;
     })
-  fs.writeFile('outputs/tools_use.csv', dsv.csvFormat(toolsWeights), 'utf8', (err) => {
-    if (err) {
-      console.log(err)
-    } else console.log('done for tools use')
-  })
-  fs.writeFile('tools_use_10.csv', dsv.csvFormat(toolsWeights.slice(0, 11)), 'utf8', (err) => {
+  fs.writeFile('outputs/tools_pondered_use.csv', dsv.csvFormat(toolsWeights), 'utf8', (err) => {
     if (err) {
       console.log(err)
     } else console.log('done for tools use')
