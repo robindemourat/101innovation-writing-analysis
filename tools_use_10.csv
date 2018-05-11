@@ -1,12 +1,12 @@
 tool,cat,compte
-MS Word,wysiwyg bureautique,8220.38690476092
-Google Drive/Docs,wysiwyg bureautique,2334.9449855699622
-LaTeX,tex,1409.391666666673
-inconnu,autre,178.86785714285722
-Scrivener,wysiwyg bureautique,173.64895382395358
-Overleaf (=WriteLaTeX),tex,115.8672077922081
-LibreOffice,wysiwyg bureautique,91.24444444444461
-Pages,wysiwyg bureautique,79.18019480519492
-Dropbox,wysiwyg bureautique,74.24390331890339
-OpenOffice,wysiwyg bureautique,74.23495670995686
-Authorea,wysiwyg bureautique,52.38279220779231
+MS Word,Word et apparentés,8220.38690476092
+Google Drive/Docs,Word et apparentés,2334.9449855699622
+LaTeX,format/éditeur apparenté à TeX,1409.391666666673
+Scrivener,autres bureautique (wysiwyg),173.64895382395358
+Overleaf (=WriteLaTeX),format/éditeur apparenté à TeX,115.8672077922081
+LibreOffice,autres bureautique (wysiwyg),91.24444444444461
+Pages,autres bureautique (wysiwyg),79.18019480519492
+Dropbox,autres bureautique (wysiwyg),74.24390331890339
+OpenOffice,Word et apparentés,74.23495670995686
+Authorea,autres bureautique (wysiwyg),52.38279220779231
+EndNote,autre,28.339682539682503

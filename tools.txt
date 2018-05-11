@@ -1,7 +1,6 @@
 MS Word
 LaTeX
 Google Drive/Docs
-inconnu
 OpenOffice
 ShareLaTeX
 Overleaf (=WriteLaTeX)
