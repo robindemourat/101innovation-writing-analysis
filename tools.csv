@@ -1,62 +1,61 @@
 tool,famille
-MS Word,wysiwyg bureautique
-LaTeX,tex
-Google Drive/Docs,wysiwyg bureautique
-inconnu,autre
-OpenOffice,wysiwyg bureautique
-ShareLaTeX,tex
-Overleaf (=WriteLaTeX),tex
+MS Word,Word et apparentés
+LaTeX,format/éditeur apparenté à TeX
+Google Drive/Docs,Word et apparentés
+OpenOffice,Word et apparentés
+ShareLaTeX,format/éditeur apparenté à TeX
+Overleaf (=WriteLaTeX),format/éditeur apparenté à TeX
 Mendeley,autre
 Evernote,autre
-GitHub,balisage léger
+GitHub,balisage et texte brut
 Bitbucket,autre
-MS Excel,wysiwyg bureautique
+MS Excel,autre
 MS Powerpoint,autre
-Adobe Photoshop,logiciel d'infographie
-Scrivener,wysiwyg bureautique
+Adobe Photoshop,autre
+Scrivener,autres bureautique (wysiwyg)
 Scalar,autre
-QuarkXPress,logiciel d'infographie
-Adobe InDesign,logiciel d'infographie
-Authorea,wysiwyg bureautique
-Pages,wysiwyg bureautique
-LibreOffice Writer,wysiwyg bureautique
-Box,wysiwyg bureautique
+QuarkXPress,autre
+Adobe InDesign,autre
+Authorea,autres bureautique (wysiwyg)
+Pages,autres bureautique (wysiwyg)
+LibreOffice Writer,autres bureautique (wysiwyg)
+Box,autres bureautique (wysiwyg)
 Zotero,autre
-WordPerfect,wysiwyg bureautique
-TextWrangler,texte brut
-Dropbox,wysiwyg bureautique
-ownCloud,wysiwyg bureautique
-balisage léger,balisage léger
-LibreOffice,wysiwyg bureautique
+WordPerfect,autres bureautique (wysiwyg)
+TextWrangler,balisage et texte brut
+Dropbox,autres bureautique (wysiwyg)
+ownCloud,autres bureautique (wysiwyg)
+balisage et texte brut,balisage et texte brut
+LibreOffice,autres bureautique (wysiwyg)
 EndNote,autre
-Papers (papersapp.com),wysiwyg bureautique
+Papers (papersapp.com),autres bureautique (wysiwyg)
 by hand,autre
 SimpleMind,autre
 institutional server,autre
 Adobe Reader,autre
-email,wysiwyg bureautique
+email,autres bureautique (wysiwyg)
 Reference Manager,autre
 Papyrus,autre
-LyX,tex
-TextEdit,texte brut
-xfig,logiciel d'infographie
+LyX,format/éditeur apparenté à TeX
+TextEdit,balisage et texte brut
+xfig,autre
 RevMan (Review Manager),autre
 institutional shared drive,autre
-Manuscripts (manuscripts.app),wysiwyg bureautique
-Notepad++,texte brut
+Manuscripts (manuscripts.app),autres bureautique (wysiwyg)
+Notepad++,balisage et texte brut
 RefWorks,autre
-Gramarly,texte brut
-texmacs,texte brut
-Sublime Text Editor,texte brut
-MS OneDrive,wysiwyg bureautique
-PhotoImpact,logiciel d'infographie
-Adobe Illustrator,logiciel d'infographie
-CINDEX,wysiwyg bureautique
-CorelDraw,logiciel d'infographie
+Gramarly,balisage et texte brut
+texmacs,balisage et texte brut
+Sublime Text Editor,balisage et texte brut
+MS OneDrive,autres bureautique (wysiwyg)
+PhotoImpact,autre
+Adobe Illustrator,autre
+CINDEX,autres bureautique (wysiwyg)
+CorelDraw,autre
 research monographs,autre
-Emacs,texte brut
-OrgMode (Emacs),texte brut
-MS Publisher,wysiwyg bureautique
+Emacs,balisage et texte brut
+OrgMode (Emacs),balisage et texte brut
+MS Publisher,autres bureautique (wysiwyg)
 R,autre
 Adobe Acrobat,autre
 MS Access,autre
@@ -64,33 +63,33 @@ pdf,autre
 MathType,autre
 Origin,autre
 graphics software,autre
-Scientific Word,wysiwyg bureautique
-OpenOffice Writer,wysiwyg bureautique
-Rmarkdown,balisage léger
+Scientific Word,autres bureautique (wysiwyg)
+OpenOffice Writer,autres bureautique (wysiwyg)
+Rmarkdown,balisage et texte brut
 RStudio,autre
-Etherpad,texte brut
-Atom,texte brut
-GIMP,logiciel d'infographie
-GraphPad,logiciel d'infographie
-GraphPad PRISM,logiciel d'infographie
+Etherpad,balisage et texte brut
+Atom,balisage et texte brut
+GIMP,autre
+GraphPad,autre
+GraphPad PRISM,autre
 Pandoc,autre
 ChemBioDraw,autre
 Atlas TI,autre
 Citavi,autre
 Keynote,autre
 Workflowy,autre
-wiki,balisage léger
-TeX,tex
-Ginger Translate,texte brut
-Alternote,tex
-MS OneNote,wysiwyg bureautique
+wiki,balisage et texte brut
+TeX,format/éditeur apparenté à TeX
+Ginger Translate,balisage et texte brut
+Alternote,format/éditeur apparenté à TeX
+MS OneNote,autres bureautique (wysiwyg)
 table editors,autre
 graph editors,autre
-InkScape,logiciel d'infographie
+InkScape,autre
 Git,autre
 Manuscript,autre
-text editor,texte brut
-Leo,éditeur de site web
+text editor,balisage et texte brut
+Leo,autre
 Write,autre
 Adobe Acrobat Pro,autre
 Google Earth,autre
@@ -98,8 +97,8 @@ iPhoto,
 CVS (Concurrent Versions System),
 knitr,
 Numbers,
-HTML editor,éditeur de site web
-Wordpress,éditeur de site web
+HTML editor,autre
+Wordpress,autre
 Omeka,
 SVN (Subversion),
 GitLab,
@@ -111,7 +110,7 @@ WPS,
 computer,
 scan,
 MDL ISIS Draw,
-gVim,texte brut
+gVim,balisage et texte brut
 BBEdit,
 Adobe,
 Mindmanager,
@@ -119,51 +118,51 @@ Power point image conversion format,
 SourceTree,
 ImageJ,
 Typewriter online,
-Vim,texte brut
+Vim,balisage et texte brut
 Docear,
 Byword,
 iWork,
 Nota Bene,
-Ulysses,balisage léger
+Ulysses,balisage et texte brut
 EasyBib,
 Google Scholar,autre
 institutional collaboration environment,
-Scribus,logiciel d'infographie
-MS Paint,logiciel d'infographie
-iA Writer,texte brut
-MacDown,balisage léger
-Scientific Workplace,
-blog,éditeur de site web
+Scribus,autre
+MS Paint,autre
+iA Writer,balisage et texte brut
+MacDown,balisage et texte brut
+Scientific Workplace,format/éditeur apparenté à TeX
+blog,autre
 FrameMaker,
-Aquamacs,texte brut
+Aquamacs,balisage et texte brut
 Grapher,
-Writer,wysiwyg bureautique
+Writer,autres bureautique (wysiwyg)
 Blender,
-Notepad,texte brut
-DocOnce,balisage léger
-Q10,texte brut
-OpenDoc,wysiwyg bureautique
+Notepad,balisage et texte brut
+DocOnce,balisage et texte brut
+Q10,balisage et texte brut
+OpenDoc,autres bureautique (wysiwyg)
 Paper,
-MS Picture,logiciel d'infographie
+MS Picture,autre
 Mathematica,
-Leafpad,texte brut
-Asciidoc,balisage léger
-OfficeSuite Pro,wysiwyg bureautique
+Leafpad,balisage et texte brut
+Asciidoc,balisage et texte brut
+OfficeSuite Pro,autres bureautique (wysiwyg)
 ArcView,
 Snipping Tool,
-MS Sharepoint,wysiwyg bureautique
-Google Keep,texte brut
-oXygen XML editor,tei/xml
-TeXStudio,tex
-memo pad,texte brut
+MS Sharepoint,autres bureautique (wysiwyg)
+Google Keep,balisage et texte brut
+oXygen XML editor,balisage et texte brut
+TeXStudio,format/éditeur apparenté à TeX
+memo pad,balisage et texte brut
 mi,
-Sakura Editor,texte brut
-Scratchpad,texte brut
-BibTeX,tex
+Sakura Editor,balisage et texte brut
+Scratchpad,balisage et texte brut
+BibTeX,format/éditeur apparenté à TeX
 JabRef,
 SPSS,
-Open Document Writer,wysiwyg bureautique
-Texmaker,tex
+Open Document Writer,autres bureautique (wysiwyg)
+Texmaker,format/éditeur apparenté à TeX
 Kile,
 FreeMind,
 Mellel,
@@ -172,16 +171,16 @@ Typora,
 MS SkyDrive,
 OpenCloud,
 Notes,
-Medium,wysiwyg bureautique
+Medium,autres bureautique (wysiwyg)
 Letterspace,
 ChemDraw,
 Telekom Mediencenter,
 Quip,
 Finale (notation software),
-word processing,texte brut
+word processing,balisage et texte brut
 Tinderbox,
-StackEdit,balisage léger
-text,texte brut
+StackEdit,balisage et texte brut
+text,balisage et texte brut
 CyberLeninka,
 Dragon,
 MathCAD,
@@ -190,15 +189,15 @@ San FranciscoEdit,
 DevonThink,
 Visio,
 SigmaPlot,
-Redmine Wiki,balisage léger
+Redmine Wiki,balisage et texte brut
 Deckset,
 Matlab,
 Ilias,
 Penflip,
 manuals/guidelines,
 monographs and articles,
-MS Visio,logiciel d'infographie
-yWriter,wysiwyg bureautique
+MS Visio,autre
+yWriter,autres bureautique (wysiwyg)
 Mindjet,
 version management,
 mobile note app,
@@ -209,15 +208,15 @@ CRITICAL,
 MINEQL+,
 Scientist,
 MS Outlook,
-Zimwiki,balisage léger
-Jupyter Notebook,balisage léger
-Marked2,balisage léger
+Zimwiki,balisage et texte brut
+Jupyter Notebook,balisage et texte brut
+Marked2,balisage et texte brut
 Basecamp,
 HWP (Hangul / HanWord),
-Lotus Word Pro,wysiwyg bureautique
-TexnicCenter,tex
+Lotus Word Pro,autres bureautique (wysiwyg)
+TexnicCenter,format/éditeur apparenté à TeX
 MEPS eidtor,
-Vi,texte brut
+Vi,balisage et texte brut
 MS Office Online,
 dbook,
 APA (American Psychological Association),
@@ -228,58 +227,58 @@ iCloud,
 Typewriter,
 XMind,
 iPad apps,
-Moo,balisage léger
-Eclipse,texte brut
-TexLipse,tex
-eduPad,texte brut
-DocBook,balisage léger
+Moo,balisage et texte brut
+Eclipse,balisage et texte brut
+TexLipse,format/éditeur apparenté à TeX
+eduPad,balisage et texte brut
+DocBook,balisage et texte brut
 Writer's Diet,
-Wordpad,texte brut
+Wordpad,balisage et texte brut
 Hidemaru,
 Cloudstor / Cloudstor+,
-OoWriter,wysiwyg bureautique
-Corel,logiciel d'infographie
-TeXshop,tex
+OoWriter,autres bureautique (wysiwyg)
+Corel,autre
+TeXshop,format/éditeur apparenté à TeX
 publishers' online workflow apps,
 Everwrite,
 iBooks,
 WinEdit,
 Notational Velocity,
 Finding (app),
-Dropbox Paper,wysiwyg bureautique
-text files,texte brut
+Dropbox Paper,autres bureautique (wysiwyg)
+text files,balisage et texte brut
 abiword,
 Scapple,
-Ashampoo Office,
+Ashampoo Office,autres bureautique (wysiwyg)
 SDL,
 AutoCAD,
 1C,
-MS Office,wysiwyg bureautique
+MS Office,autres bureautique (wysiwyg)
 literature management programs,
 Collective Knowledge,
-FocusWriter,texte brut
-Confluence wiki,balisage léger
+FocusWriter,balisage et texte brut
+Confluence wiki,balisage et texte brut
 app,
-Mou,balisage léger
+Mou,balisage et texte brut
 Kate,
-nedit,texte brut
+nedit,balisage et texte brut
 Cite this for me,
-Note,texte brut
-Scriptdoc,balisage léger
+Note,balisage et texte brut
+Scriptdoc,balisage et texte brut
 Editorial (app),
 Linked Research,
-Adobe Creative Suite,logiciel d'infographie
+Adobe Creative Suite,autre
 Sibelius,
 cloud,
 SurfDrive,
 Sente,
 OCT,
 iNotebook,
-MS Note,wysiwyg bureautique
+MS Note,autres bureautique (wysiwyg)
 NVIVO,
 F1000 Workbench,
-Pinta,logiciel d'infographie
-nvALT,balisage léger
+Pinta,autre
+nvALT,balisage et texte brut
 Xodo Docs,
 BRAHMS,
 ChemSketch,
@@ -287,27 +286,27 @@ RagTime,
 carnet,
 publisher,
 publishers' production platforms,
-Adobe Dreamweaver,éditeur de site web
+Adobe Dreamweaver,autre
 ArcGIS,
 Shapes,
 AUCTeX,
 EndNoteWeb,
 ChemWorx,
-Ginko (app),balisage léger
-open source office products,wysiwyg bureautique
-MS Win Notepad,wysiwyg bureautique
+Ginko (app),balisage et texte brut
+open source office products,autres bureautique (wysiwyg)
+MS Win Notepad,autres bureautique (wysiwyg)
 OWL (Purdue),
 MedeA,
 Mercury,
 PowerCell,
 Topas,
-Works,wysiwyg bureautique
+Works,autres bureautique (wysiwyg)
 IrfanView,
 Python,
-PiratePad,texte brut
-MediaWiki,balisage léger
+PiratePad,balisage et texte brut
+MediaWiki,balisage et texte brut
 GIS,
-MultiMarkdown Composer,balisage léger
+MultiMarkdown Composer,balisage et texte brut
 cloud storage,
 Photos,
 personal solution,
@@ -315,8 +314,8 @@ Scribd,
 MathCast,
 Calc,
 Bibdesk,
-restructured text for technical documentation,balisage léger
-Writer Pro,texte brut
+restructured text for technical documentation,balisage et texte brut
+Writer Pro,balisage et texte brut
 Lynx,
 Zettelkasten,
 Mindmap,
@@ -333,12 +332,12 @@ PDF creator,
 copy,
 Circus Ponies Notebook,
 literature management program,
-Dokuwiki,balisage léger
+Dokuwiki,balisage et texte brut
 Igor,
 ProCite,
-word to pdf converters (and vice versa),wysiwyg bureautique
+word to pdf converters (and vice versa),autres bureautique (wysiwyg)
 online platforms to store and share large files,
-MS Word Online,wysiwyg bureautique
+MS Word Online,Word et apparentés
 ACM (Association for Computing Machinery) author profile page,
 IDL,
 peers / colleagues,
@@ -347,49 +346,49 @@ Statistica,
 RefWorks Flow,
 institutional solution,
 ChemOffice,autre
-PagePlus,wysiwyg bureautique
+PagePlus,autres bureautique (wysiwyg)
 Mind Genius,
 institutional list of publications,
 Indian lists of recent publications,
 Linux,
 750words.com,
 Seafile,
-Textilus,wysiwyg bureautique
+Textilus,autres bureautique (wysiwyg)
 PDF Pro,
 ABBYY FineReader,
-Madoko,balisage léger
-Scholarly Markdown,balisage léger
-WriteMonkey,balisage léger
+Madoko,balisage et texte brut
+Scholarly Markdown,balisage et texte brut
+WriteMonkey,balisage et texte brut
 journal submission system,
-Softmaker Office,wysiwyg bureautique
-Overleaf,tex
+Softmaker Office,autres bureautique (wysiwyg)
+Overleaf,format/éditeur apparenté à TeX
 MathMagic,
-MS Office 365,wysiwyg bureautique
+MS Office 365,autres bureautique (wysiwyg)
 local tools,
 Lilypond,autre
-iBooks Author,logiciel d'infographie
+iBooks Author,autre
 Yandex Docuements,autre
-MediaWikimarkdown,balisage léger
+MediaWikimarkdown,balisage et texte brut
 Open Words,
 Beamer,
-Beaker,éditeur de site web
+Beaker,
 Omni Outliner,
 Google Translate,
 Android applications,
 journal articles and textbooks,
 TIMEVIEWER,
 Rake,autre
-Adobe Creative Cloud,logiciel d'infographie
+Adobe Creative Cloud,autre
 Wikiversity,
-TextMate,texte brut
-Antidote,wysiwyg bureautique
+TextMate,balisage et texte brut
+Antidote,autres bureautique (wysiwyg)
 Windows,autre
 Web of Science,autre
 publisher website,autre
 DOI (Digital Object Identifier),autre
-online translator,texte brut
-Elsevier Webshop Language Editing,logiciel d'infographie
-Elsevier Webshop Illustration Service,logiciel d'infographie
+online translator,balisage et texte brut
+Elsevier Webshop Language Editing,autre
+Elsevier Webshop Illustration Service,autre
 Prezi,autre
-RTF editor,texte brut
-Text Encoding Initiative,tei/xml
+RTF editor,balisage et texte brut
+Text Encoding Initiative,balisage et texte brut
