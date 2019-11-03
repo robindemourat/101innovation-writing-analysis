@@ -1,4 +1,5 @@
 tool,cat,compte
+undefined,,NaN
 MS Word,Word et apparentés,8220.38690476092
 Google Drive/Docs,Word et apparentés,2334.9449855699622
 LaTeX,format/éditeur apparenté à TeX,1409.391666666673
@@ -87,9 +88,9 @@ Dragon,autre,1.25
 iWork,autre,1.2261904761904763
 Paper,autre,1.2166666666666668
 TextWrangler,balisage et texte brut,1.193290043290043
-Nota Bene,autre,1.1666666666666665
-Adobe Reader,autre,1.1666666666666665
 ownCloud,autres bureautique (wysiwyg),1.1666666666666665
+Adobe Reader,autre,1.1666666666666665
+Nota Bene,autre,1.1666666666666665
 MS Paint,autre,1.165909090909091
 HTML editor,autre,1.1409090909090909
 MathCAD,autre,1.1166666666666667
@@ -105,16 +106,16 @@ MediaWiki,balisage et texte brut,0.95
 JabRef,autre,0.9
 NVIVO,autre,0.9
 Mou,balisage et texte brut,0.857142857142857
-TeXStudio,format/éditeur apparenté à TeX,0.8500000000000001
 Mindmanager,autre,0.8500000000000001
-MS Office,autres bureautique (wysiwyg),0.8333333333333333
+TeXStudio,format/éditeur apparenté à TeX,0.8500000000000001
 Papyrus,autre,0.8333333333333333
+MS Office,autres bureautique (wysiwyg),0.8333333333333333
 Vi,balisage et texte brut,0.8095238095238095
 BBEdit,autre,0.7928571428571429
 Wordpad,balisage et texte brut,0.7888888888888889
 MS Outlook,autre,0.7833333333333333
-iCloud,autre,0.7833333333333332
 Writer,autres bureautique (wysiwyg),0.7833333333333332
+iCloud,autre,0.7833333333333332
 personal solution,autre,0.7777777777777777
 Keynote,autre,0.7666666666666666
 QuarkXPress,autre,0.7619047619047619
@@ -124,272 +125,271 @@ RefWorks Flow,autre,0.7142857142857142
 Kile,autre,0.7083333333333333
 SVN (Subversion),autre,0.7
 XMind,autre,0.7
-Typewriter,autre,0.6666666666666666
 xfig,autre,0.6666666666666666
-peers / colleagues,autre,0.6666666666666666
 texmacs,balisage et texte brut,0.6666666666666666
-TeXshop,format/éditeur apparenté à TeX,0.6666666666666666
-SPSS,autre,0.6666666666666666
 BibTeX,format/éditeur apparenté à TeX,0.6666666666666666
+SPSS,autre,0.6666666666666666
 HWP (Hangul / HanWord),autre,0.6666666666666666
+Typewriter,autre,0.6666666666666666
+TeXshop,format/éditeur apparenté à TeX,0.6666666666666666
+peers / colleagues,autre,0.6666666666666666
+Atlas TI,autre,0.65
+Quip,autre,0.65
 text files,balisage et texte brut,0.65
 Note,balisage et texte brut,0.65
 Sweave,autre,0.65
-Quip,autre,0.65
-Atlas TI,autre,0.65
 Seafile,autre,0.625
 email,autres bureautique (wysiwyg),0.611111111111111
+FreeMind,autre,0.6000000000000001
 MultiMarkdown Composer,balisage et texte brut,0.6000000000000001
 Mindmap,autre,0.6000000000000001
-FreeMind,autre,0.6000000000000001
 blog,autre,0.6
-FrameMaker,autre,0.5833333333333333
-app,autre,0.5833333333333333
 MS Access,autre,0.5833333333333333
-AutoCAD,autre,0.5833333333333333
 CVS (Concurrent Versions System),autre,0.5833333333333333
+FrameMaker,autre,0.5833333333333333
+AutoCAD,autre,0.5833333333333333
+app,autre,0.5833333333333333
 Scapple,autre,0.575
 version management,autre,0.5714285714285714
 cloud,autre,0.5555555555555556
-MS Publisher,autres bureautique (wysiwyg),0.5333333333333333
 Bitbucket,autre,0.5333333333333333
+MS Publisher,autres bureautique (wysiwyg),0.5333333333333333
 ChemBioDraw,autre,0.5333333333333333
 Cloudstor / Cloudstor+,autre,0.5333333333333333
+CINDEX,autres bureautique (wysiwyg),0.5
 research monographs,autre,0.5
-CyberLeninka,autre,0.5
-ChemOffice,autre,0.5
-Hidemaru,autre,0.5
-MS Win Notepad,autres bureautique (wysiwyg),0.5
+Leo,autre,0.5
 Typewriter online,autre,0.5
 OpenDoc,autres bureautique (wysiwyg),0.5
-MathCast,autre,0.5
-APA (American Psychological Association),autre,0.5
-ACM (Association for Computing Machinery) author profile page,autre,0.5
-Leo,autre,0.5
 cms,autre,0.5
+CyberLeninka,autre,0.5
 notebook,autre,0.5
-Adobe Creative Cloud,autre,0.5
 Scientist,autre,0.5
-Prezi,autre,0.5
-ChemWorx,autre,0.5
+APA (American Psychological Association),autre,0.5
+Hidemaru,autre,0.5
+Editorial (app),autre,0.5
 EndNoteWeb,autre,0.5
+ChemWorx,autre,0.5
 open source office products,autres bureautique (wysiwyg),0.5
-CINDEX,autres bureautique (wysiwyg),0.5
-Wikiversity,autre,0.5
+MS Win Notepad,autres bureautique (wysiwyg),0.5
+MathCast,autre,0.5
+ACM (Association for Computing Machinery) author profile page,autre,0.5
+ChemOffice,autre,0.5
 Softmaker Office,autres bureautique (wysiwyg),0.5
 journal articles and textbooks,autre,0.5
-Editorial (app),autre,0.5
+Adobe Creative Cloud,autre,0.5
+Wikiversity,autre,0.5
+Prezi,autre,0.5
+institutional server,autre,0.45
+Notes,autre,0.45
 MS Office Online,autre,0.45
 WinEdit,autre,0.45
 Dropbox Paper,autres bureautique (wysiwyg),0.45
-institutional server,autre,0.45
 AUCTeX,autre,0.45
-Notes,autre,0.45
 OWL (Purdue),autre,0.4444444444444444
 APA (American Psychological Association) manual,autre,0.4444444444444444
+DevonThink,autre,0.41666666666666663
 FocusWriter,balisage et texte brut,0.41666666666666663
 publisher,autre,0.41666666666666663
-DevonThink,autre,0.41666666666666663
+MacDown,balisage et texte brut,0.4
 Open Document Writer,autres bureautique (wysiwyg),0.4
-ChemSketch,autre,0.4
-MEPS eidtor,autre,0.4
 ReST,autre,0.4
 Basecamp,autre,0.4
+MEPS eidtor,autre,0.4
+ChemSketch,autre,0.4
 RagTime,autre,0.4
-MacDown,balisage et texte brut,0.4
 Circus Ponies Notebook,autre,0.39285714285714285
 IrfanView,autre,0.3666666666666667
-Dokuwiki,balisage et texte brut,0.34285714285714286
 Visio,autre,0.34285714285714286
-MS Office 365,autres bureautique (wysiwyg),0.3333333333333333
-Collective Knowledge,autre,0.3333333333333333
-Grapher,autre,0.3333333333333333
-WriteMonkey,balisage et texte brut,0.3333333333333333
-MS Visio,autre,0.3333333333333333
-journal submission system,autre,0.3333333333333333
-Ginko (app),balisage et texte brut,0.3333333333333333
-Scribd,autre,0.3333333333333333
-table editors,autre,0.3333333333333333
-DocBook,balisage et texte brut,0.3333333333333333
-graph editors,autre,0.3333333333333333
-Writer's Diet,autre,0.3333333333333333
-Lotus Word Pro,autres bureautique (wysiwyg),0.3333333333333333
-Power point image conversion format,autre,0.3333333333333333
-ArcGIS,autre,0.3333333333333333
-local tools,autre,0.3333333333333333
-Finale (notation software),autre,0.3333333333333333
-OfficeSuite Pro,autres bureautique (wysiwyg),0.3333333333333333
-Telekom Mediencenter,autre,0.3333333333333333
-OoWriter,autres bureautique (wysiwyg),0.3333333333333333
-institutional solution,autre,0.3333333333333333
-F1000 Workbench,autre,0.3333333333333333
-Blender,autre,0.3333333333333333
-neooffice,autre,0.3333333333333333
-Asciidoc,balisage et texte brut,0.3333333333333333
-Leafpad,balisage et texte brut,0.3333333333333333
-gVim,balisage et texte brut,0.3333333333333333
-publishers' online workflow apps,autre,0.3333333333333333
+Dokuwiki,balisage et texte brut,0.34285714285714286
+SimpleMind,autre,0.3333333333333333
 PhotoImpact,autre,0.3333333333333333
-nedit,balisage et texte brut,0.3333333333333333
-Marked2,balisage et texte brut,0.3333333333333333
-iBooks,autre,0.3333333333333333
+table editors,autre,0.3333333333333333
+graph editors,autre,0.3333333333333333
 Write,autre,0.3333333333333333
-Lilypond,autre,0.3333333333333333
-Typora,autre,0.3333333333333333
-Ashampoo Office,autres bureautique (wysiwyg),0.3333333333333333
-Zimwiki,balisage et texte brut,0.3333333333333333
-Zettelkasten,autre,0.3333333333333333
+neooffice,autre,0.3333333333333333
+gVim,balisage et texte brut,0.3333333333333333
+Power point image conversion format,autre,0.3333333333333333
+Grapher,autre,0.3333333333333333
+Blender,autre,0.3333333333333333
 DocOnce,balisage et texte brut,0.3333333333333333
 Q10,balisage et texte brut,0.3333333333333333
-restructured text for technical documentation,balisage et texte brut,0.3333333333333333
-San FranciscoEdit,autre,0.3333333333333333
-SimpleMind,autre,0.3333333333333333
-Rake,autre,0.3333333333333333
+Leafpad,balisage et texte brut,0.3333333333333333
+Asciidoc,balisage et texte brut,0.3333333333333333
+OfficeSuite Pro,autres bureautique (wysiwyg),0.3333333333333333
+Typora,autre,0.3333333333333333
+Telekom Mediencenter,autre,0.3333333333333333
+Finale (notation software),autre,0.3333333333333333
 word processing,balisage et texte brut,0.3333333333333333
+San FranciscoEdit,autre,0.3333333333333333
+MS Visio,autre,0.3333333333333333
+Zimwiki,balisage et texte brut,0.3333333333333333
+Marked2,balisage et texte brut,0.3333333333333333
+Lotus Word Pro,autres bureautique (wysiwyg),0.3333333333333333
+DocBook,balisage et texte brut,0.3333333333333333
+Writer's Diet,autre,0.3333333333333333
+OoWriter,autres bureautique (wysiwyg),0.3333333333333333
+publishers' online workflow apps,autre,0.3333333333333333
+iBooks,autre,0.3333333333333333
+Ashampoo Office,autres bureautique (wysiwyg),0.3333333333333333
+Collective Knowledge,autre,0.3333333333333333
+nedit,balisage et texte brut,0.3333333333333333
+F1000 Workbench,autre,0.3333333333333333
+ArcGIS,autre,0.3333333333333333
+Ginko (app),balisage et texte brut,0.3333333333333333
+Scribd,autre,0.3333333333333333
+restructured text for technical documentation,balisage et texte brut,0.3333333333333333
+Zettelkasten,autre,0.3333333333333333
+institutional solution,autre,0.3333333333333333
+WriteMonkey,balisage et texte brut,0.3333333333333333
+journal submission system,autre,0.3333333333333333
+MS Office 365,autres bureautique (wysiwyg),0.3333333333333333
+local tools,autre,0.3333333333333333
+Lilypond,autre,0.3333333333333333
+Rake,autre,0.3333333333333333
 TexnicCenter,format/éditeur apparenté à TeX,0.325
-Moo,balisage et texte brut,0.2857142857142857
 OpenCloud,autre,0.2857142857142857
+Moo,balisage et texte brut,0.2857142857142857
 Notational Velocity,autre,0.2857142857142857
-literature management program,autre,0.25
-750words.com,autre,0.25
-Mindjet,autre,0.25
-Preview,autre,0.25
-Yandex Docuements,autre,0.25
-Photos,autre,0.25
-SDL,autre,0.25
-nvALT,balisage et texte brut,0.25
-Finding (app),autre,0.25
-Xodo Docs,autre,0.25
-EasyBib,autre,0.25
-BRAHMS,autre,0.25
-Everwrite,autre,0.25
-TIMEVIEWER,autre,0.25
-Open Words,autre,0.25
-Peerla,autre,0.25
-Overleaf,format/éditeur apparenté à TeX,0.25
-cloud storage,autre,0.25
-iPad apps,autre,0.25
-Beamer,autre,0.25
-ProCite,autre,0.25
-Python,autre,0.25
-dbook,autre,0.25
-Igor,autre,0.25
-Android applications,autre,0.25
 institutional shared drive,autre,0.25
-OnlyOffice,autre,0.25
-StackEdit,balisage et texte brut,0.25
-Lynx,autre,0.25
-Shapes,autre,0.25
-Google Scholar,autre,0.25
-Redmine Wiki,balisage et texte brut,0.25
-Cite this for me,autre,0.25
-Jupyter Notebook,balisage et texte brut,0.25
-eduPad,balisage et texte brut,0.25
-iNotebook,autre,0.25
-RTF editor,balisage et texte brut,0.25
 Workflowy,autre,0.25
-IDL,autre,0.25
 Ginger Translate,balisage et texte brut,0.25
-1C,autre,0.25
-Sente,autre,0.25
+OnlyOffice,autre,0.25
 SourceTree,autre,0.25
-Calc,autre,0.25
+EasyBib,autre,0.25
+Google Scholar,autre,0.25
 institutional collaboration environment,autre,0.25
-Beaker,autre,0.2222222222222222
+StackEdit,balisage et texte brut,0.25
+Redmine Wiki,balisage et texte brut,0.25
+Mindjet,autre,0.25
+Jupyter Notebook,balisage et texte brut,0.25
+dbook,autre,0.25
+iPad apps,autre,0.25
+eduPad,balisage et texte brut,0.25
+Everwrite,autre,0.25
+Finding (app),autre,0.25
+SDL,autre,0.25
+1C,autre,0.25
+Cite this for me,autre,0.25
+Sente,autre,0.25
+iNotebook,autre,0.25
+nvALT,balisage et texte brut,0.25
+Xodo Docs,autre,0.25
+BRAHMS,autre,0.25
+Shapes,autre,0.25
+Python,autre,0.25
+cloud storage,autre,0.25
+Photos,autre,0.25
+Calc,autre,0.25
+Lynx,autre,0.25
+Preview,autre,0.25
+Peerla,autre,0.25
+literature management program,autre,0.25
+Igor,autre,0.25
+ProCite,autre,0.25
+IDL,autre,0.25
+750words.com,autre,0.25
+Overleaf,format/éditeur apparenté à TeX,0.25
+Yandex Docuements,autre,0.25
+Open Words,autre,0.25
+Beamer,autre,0.25
+Android applications,autre,0.25
+TIMEVIEWER,autre,0.25
+RTF editor,balisage et texte brut,0.25
 SurfDrive,autre,0.2222222222222222
 publishers' production platforms,autre,0.2222222222222222
 Adobe Dreamweaver,autre,0.2222222222222222
-monographs and articles,autre,0.2
-Text Encoding Initiative,balisage et texte brut,0.2
-PagePlus,autres bureautique (wysiwyg),0.14285714285714285
-undefined,,NaN
-word to pdf converters (and vice versa),autres bureautique (wysiwyg),0.2
-Aquamacs,balisage et texte brut,0.2
-online platforms to store and share large files,autre,0.2
-Works,autres bureautique (wysiwyg),0.2
-Penflip,autre,0.2
-carnet,autre,0.2
-mi,autre,0.2
-MS SkyDrive,autre,0.2
-mapping software,autre,0.2
-Kate,autre,0.2
-MindMaple,autre,0.2
-Confluence wiki,balisage et texte brut,0.2
-Sakura Editor,balisage et texte brut,0.2
-literature management programs,autre,0.2
-manuals/guidelines,autre,0.2
-TexLipse,format/éditeur apparenté à TeX,0.2
-Scholarly Markdown,balisage et texte brut,0.2
-SciDavis,autre,0.2
-Antidote,autres bureautique (wysiwyg),0.2
+Beaker,autre,0.2222222222222222
 institutional cloud server,autre,0.2
-Madoko,balisage et texte brut,0.2
-Snipping Tool,autre,0.2
-Linked Research,autre,0.2
-Google Keep,balisage et texte brut,0.2
-Matlab,autre,0.2
-memo pad,balisage et texte brut,0.2
-Google Translate,autre,0.2
-Scriptdoc,balisage et texte brut,0.2
-ImageJ,autre,0.2
-Writer Pro,balisage et texte brut,0.2
-Statistica,autre,0.2
-Eclipse,balisage et texte brut,0.2
-text,balisage et texte brut,0.2
-ArcView,autre,0.2
 MDL ISIS Draw,autre,0.2
-PyMOL,autre,0.2
-Medium,autres bureautique (wysiwyg),0.2
-Bibdesk,autre,0.2
+ImageJ,autre,0.2
+Aquamacs,balisage et texte brut,0.2
+ArcView,autre,0.2
+Snipping Tool,autre,0.2
+Google Keep,balisage et texte brut,0.2
+memo pad,balisage et texte brut,0.2
+mi,autre,0.2
+Sakura Editor,balisage et texte brut,0.2
 Scratchpad,balisage et texte brut,0.2
-Textilus,autres bureautique (wysiwyg),0.2
-PiratePad,balisage et texte brut,0.2
-Omni Outliner,autre,0.2
-abiword,autre,0.2
-copy,autre,0.2
-MathMagic,autre,0.2
+MS SkyDrive,autre,0.2
+Medium,autres bureautique (wysiwyg),0.2
+text,balisage et texte brut,0.2
+Matlab,autre,0.2
+Penflip,autre,0.2
+manuals/guidelines,autre,0.2
+monographs and articles,autre,0.2
+MindMaple,autre,0.2
+mapping software,autre,0.2
+PyMOL,autre,0.2
 pLabel,autre,0.2
-Ilias,autre,0.16666666666666666
-GIS,autre,0.16666666666666666
-CRITICAL,autre,0.16666666666666666
-MS Note,autres bureautique (wysiwyg),0.16666666666666666
-MINEQL+,autre,0.16666666666666666
-scan,autre,0.16666666666666666
-Javascript,autre,0.16666666666666666
-institutional list of publications,autre,0.16666666666666666
-Perl,autre,0.16666666666666666
-Perforce,autre,0.16666666666666666
+SciDavis,autre,0.2
+Eclipse,balisage et texte brut,0.2
+TexLipse,format/éditeur apparenté à TeX,0.2
+abiword,autre,0.2
+literature management programs,autre,0.2
+Confluence wiki,balisage et texte brut,0.2
+Kate,autre,0.2
+Scriptdoc,balisage et texte brut,0.2
+Linked Research,autre,0.2
+carnet,autre,0.2
+Works,autres bureautique (wysiwyg),0.2
+PiratePad,balisage et texte brut,0.2
+Bibdesk,autre,0.2
+Writer Pro,balisage et texte brut,0.2
+copy,autre,0.2
+word to pdf converters (and vice versa),autres bureautique (wysiwyg),0.2
+online platforms to store and share large files,autre,0.2
+Statistica,autre,0.2
+Textilus,autres bureautique (wysiwyg),0.2
+Madoko,balisage et texte brut,0.2
+Scholarly Markdown,balisage et texte brut,0.2
+MathMagic,autre,0.2
+Omni Outliner,autre,0.2
+Google Translate,autre,0.2
+Antidote,autres bureautique (wysiwyg),0.2
+Text Encoding Initiative,balisage et texte brut,0.2
 Alternote,format/éditeur apparenté à TeX,0.16666666666666666
-iBooks Author,autre,0.16666666666666666
-MS Picture,autre,0.16666666666666666
-computer,autre,0.16666666666666666
-php,autre,0.16666666666666666
-yWriter,autres bureautique (wysiwyg),0.16666666666666666
 GitLab,autre,0.16666666666666666
+computer,autre,0.16666666666666666
+scan,autre,0.16666666666666666
+MS Picture,autre,0.16666666666666666
 Letterspace,autre,0.16666666666666666
+Ilias,autre,0.16666666666666666
+yWriter,autres bureautique (wysiwyg),0.16666666666666666
+CRITICAL,autre,0.16666666666666666
+MINEQL+,autre,0.16666666666666666
+MS Note,autres bureautique (wysiwyg),0.16666666666666666
+GIS,autre,0.16666666666666666
+php,autre,0.16666666666666666
+Perl,autre,0.16666666666666666
+Javascript,autre,0.16666666666666666
+Perforce,autre,0.16666666666666666
+institutional list of publications,autre,0.16666666666666666
 Indian lists of recent publications,autre,0.16666666666666666
-Mind Genius,autre,0.14285714285714285
-TextMate,balisage et texte brut,0.14285714285714285
-MediaWikiMarkdown,,0.14285714285714285
-Linux,autre,0.14285714285714285
-Deckset,autre,0.14285714285714285
+iBooks Author,autre,0.16666666666666666
 GraphPad,autre,0.14285714285714285
-ABBYY FineReader,autre,0.125
+Deckset,autre,0.14285714285714285
+PagePlus,autres bureautique (wysiwyg),0.14285714285714285
+Mind Genius,autre,0.14285714285714285
+Linux,autre,0.14285714285714285
+MediaWikiMarkdown,,0.14285714285714285
+TextMate,balisage et texte brut,0.14285714285714285
 PDF Pro,autre,0.125
+ABBYY FineReader,autre,0.125
 Google,autre,0.1111111111111111
 DuckDuckGo,autre,0.1111111111111111
-MedeA,autre,0.1
-PowerCell,autre,0.1
-iPhoto,autre,0.1
 Google Earth,autre,0.1
+iPhoto,autre,0.1
+MedeA,autre,0.1
 Mercury,autre,0.1
+PowerCell,autre,0.1
 Topas,autre,0.1
-Pinta,autre,0.09090909090909091
 Omeka,autre,0.09090909090909091
-online translator,balisage et texte brut,0.08333333333333333
-DOI (Digital Object Identifier),autre,0.08333333333333333
+Pinta,autre,0.09090909090909091
 Windows,autre,0.08333333333333333
 Web of Science,autre,0.08333333333333333
-Elsevier Webshop Illustration Service,autre,0.08333333333333333
-Elsevier Webshop Language Editing,autre,0.08333333333333333
 publisher website,autre,0.08333333333333333
+DOI (Digital Object Identifier),autre,0.08333333333333333
+online translator,balisage et texte brut,0.08333333333333333
+Elsevier Webshop Language Editing,autre,0.08333333333333333
+Elsevier Webshop Illustration Service,autre,0.08333333333333333

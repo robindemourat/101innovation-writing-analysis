@@ -45,19 +45,19 @@ const disciplineCategories = {
   'Sciences de la vie': 'STEM',
   'Ingénierie & technologie': 'STEM',
   'Médecine': 'Médecine',
-  'Arts et Lettres': 'Arts et Lettres',
+  'Arts et Lettres': 'SHS',
   'Sciences physiques': 'STEM',
-  'Droit': 'Droit'
+  'Droit': 'SHS'
 }
 const disciplineCategoriesReverse = {
-  'SHS': ['Sciences sociales et économie'],
+  'SHS': ['Sciences sociales et économie', 'Arts et Lettres', 'Droit'],
   'STEM': ['Sciences de la vie', 'Sciences de la vie', 'Ingénierie & technologie', 'Sciences physiques'],
   'Médecine': ['Médecine'],
-  'Arts et Lettres': ['Arts et Lettres'],
-  'Droit': ['Droit']
+  // 'Arts et Lettres': ['Arts et Lettres'],
+  // 'Droit': ['Droit']
 }
 
-const disciplineCategoriesList = ['SHS', 'STEM', 'Médecine', 'Arts et Lettres', 'Droit'];
+const disciplineCategoriesList = ['SHS', 'STEM', 'Médecine'/*, 'Arts et Lettres', 'Droit'*/];
 
 const psv = dsv.dsvFormat(";");
 
@@ -195,9 +195,13 @@ fs.readFile(input, 'utf8', (err, str) => {
   });
 
   // respondants by disciplines (some respondants are present in two categories, thus they are weightened)
-  const respondantsByDiscipline = disciplineCategoriesList.map(catId => {
-      const catName = Object.keys(disciplineCategories).find(name => disciplineCategories[name] === catId);
+  const respondantsByDiscipline = Object.keys(disciplineCategories).map(catName => {
+      // const catName = Object.keys(disciplineCategories).find(name => {
+      //   return disciplineCategories[name] === catId
+      // });
+      
       const fRespondants = respondants.filter(r => r.disciplines.indexOf(catName) > -1)
+      const catId = disciplineCategories[catName]
       return {
         catId,
         catName,
@@ -249,6 +253,32 @@ fs.readFile(input, 'utf8', (err, str) => {
     }
     return -1;
   });
+  let toolsCategoriesPopularitySum = 0;
+  let toolsCategoriesPopularity = toolsCategoriesCorr.reduce((total, tool) => {
+    const toolName= tool.tool;
+    const famille = tool.famille || 'autre';
+    // how many respondants mentionned this tool ?
+    const count = respondants.reduce((sum, resp) => sum + (resp.tools.indexOf(toolName) > -1  ? 1 : 0), 0);
+    // console.log(toolName, total.famille ? total.famille + count : count)
+    toolsCategoriesPopularitySum = toolsCategoriesPopularitySum + count
+    // const fractionOfUse = count / respondants.length;
+    return Object.assign(total, {
+      [famille]: (total[famille] || 0) + count
+    });
+  }, {});
+  toolsCategoriesPopularity = Object.keys(toolsCategoriesPopularity).map(famille => {
+    return {
+      famille: famille,
+      count: toolsCategoriesPopularity[famille],
+      fraction: toolsCategoriesPopularity[famille] / toolsCategoriesPopularitySum
+    }
+  })
+  .sort((a, b) => {
+    if (a.count < b.count) {
+      return 1;
+    }
+    return -1;
+  });
   const toolsPopularity20best = toolsPopularity
     .filter(t => t.tool !== 'inconnu')
     .slice(0, 20);
@@ -262,8 +292,9 @@ fs.readFile(input, 'utf8', (err, str) => {
         const fractionOfUse = count / discipline.respondants.map(r => r.respondantDisciplineWeight);
         return total2.concat({
           toolName,
-          famille: tool.famille,
+          famille: tool.famille || 'autre',
           discipline: discipline.catName,
+          discipline_categorie: disciplineCategories[discipline.catName],
           total_respondants_discipline: discipline.respondants.length,
           count,
           fractionOfUse,
@@ -296,6 +327,29 @@ fs.readFile(input, 'utf8', (err, str) => {
       }, [])
     )
   }, []);
+  
+  let toolsCategoriesPopularityForSHS = toolsCategoriesCorr
+  .map(tool => tool.tool)
+  .reduce((total, toolName) => {
+    return Object.assign(total, {
+      [toolName]: respondantsByDiscipline
+      .filter(discipline => 
+        discipline.catId === 'SHS'
+      )
+      .reduce((disciplineCount, discipline) => {
+        return discipline.respondants.reduce((sum, resp) => sum + (resp.tools.indexOf(toolName) > -1  ? resp.respondantDisciplineWeight : 0), disciplineCount)
+      }, 0)
+    })
+  }, {})
+  let toolsCategoriesPopularityForSHSTotal = Object.keys(toolsCategoriesPopularityForSHS).reduce((sum, key) => sum + toolsCategoriesPopularityForSHS[key], 0);
+  toolsCategoriesPopularityForSHS = Object.keys(toolsCategoriesPopularityForSHS)
+  .map(toolName => {
+    return {
+      tool: toolName,
+      count: toolsCategoriesPopularityForSHS[toolName],
+      fraction: toolsCategoriesPopularityForSHS[toolName] / toolsCategoriesPopularityForSHSTotal
+    }
+  })
 
   
   fs.writeFile('outputs/output_respondants_discipline_categories.csv', dsv.csvFormat(respondantsDisciplineCategories), 'utf8', (err) => {
@@ -311,6 +365,12 @@ fs.readFile(input, 'utf8', (err, str) => {
     }
     else console.log('done for output_tools_popularity_all');
   });
+  fs.writeFile('outputs/output_tools_categories_pop.csv', dsv.csvFormat(toolsCategoriesPopularity), 'utf8', (err) => {
+    if (err) {
+      console.log(err);
+    }
+    else console.log('done for output_tools_categories_pop');
+  });
   fs.writeFile('outputs/output_tools_popularity_20best.csv', dsv.csvFormat(toolsPopularity20best), 'utf8', (err) => {
     if (err) {
       console.log(err);
@@ -324,6 +384,12 @@ fs.readFile(input, 'utf8', (err, str) => {
     else console.log('done for output_tools_popularity_by_discipline');
   });
   fs.writeFile('outputs/output_tools_categories_popularity_by_discipline_categories.csv', dsv.csvFormat(toolsCategoriesPopularityByDisciplineCategory), 'utf8', (err) => {
+    if (err) {
+      console.log(err);
+    }
+    else console.log('done for output_tools_categories_popularity_by_discipline_categories');
+  });
+  fs.writeFile('outputs/output_selection_shs.csv', dsv.csvFormat(toolsCategoriesPopularityForSHS), 'utf8', (err) => {
     if (err) {
       console.log(err);
     }
